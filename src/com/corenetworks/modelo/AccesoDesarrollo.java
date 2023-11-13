@@ -1,8 +1,9 @@
 package com.corenetworks.modelo;
 
-public class AccesoProduccion implements IDAO{
+public class AccesoDesarrollo implements IDAO{
     @Override
     public String insertar(Cliente c1) {
-        return "Se inserta el cliente en PRODUCCION " + c1.getNombre();
+
+        return "Se inserta el cliente en DESARROLLO " + c1.getNombre();
     }
 }
